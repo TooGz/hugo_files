@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>7D on Michel Website</title>
+    <link>http://192.168.1.3:8080/tags/7d/</link>
+    <description>Recent content in 7D on Michel Website</description>
+    <image>
+      <url>http://192.168.1.3:8080/papermod-cover.png</url>
+      <link>http://192.168.1.3:8080/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="http://192.168.1.3:8080/tags/7d/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Les bases de la photographie [PART 2/3] : La vitesse d&amp;rsquo;obturation</title>
+      <link>http://192.168.1.3:8080/posts/2012-08-08-les-bases-de-la-photographie-part-2-3-vitesse-obturation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.3:8080/posts/2012-08-08-les-bases-de-la-photographie-part-2-3-vitesse-obturation/</guid>
+      <description>Salut à tous ! Aujourd’hui comme promis (avec un peu de retard) voici la deuxième partie des bases de la photo. Je suis parti quelques jours à Orléans décompresser un peu et celan a été l’occasion de faire un drive-by en camping car sur les bords de Loire. Sympa, on a profité des lieux pour s’essayer a du light painting à base de fusées scintillantes et autres feux d’artifices. A creuser car le rendu est vraiment sympa.</description>
+    </item>
+    
+    <item>
+      <title>Les bases de la photographie [PART 3/3]: la sensibilité</title>
+      <link>http://192.168.1.3:8080/posts/2012-08-09-les-bases-de-la-photographie-part-3-3-sensibilite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.1.3:8080/posts/2012-08-09-les-bases-de-la-photographie-part-3-3-sensibilite/</guid>
+      <description>En photo, la sensibilité d’un capteur (ou d’une pellicule en argentique) définit sa capacité à imprimer l »image. A l’époque de l’argentique, c’est la pellicule qui avait une sensibilité différente. Donc il fallait prévoir en amont et surtout être cantonné a la sensibilité choisie durant toute la pellicule. A l’heure actuelle avec les boitiers numérique, la sensibilité est lié au capteur et peut donc varier facilement. Cela nous facilite grandement la tache puisque qu’on peut ajuster la sensibilité en temps réel.</description>
+    </item>
+    
+  </channel>
+</rss>
