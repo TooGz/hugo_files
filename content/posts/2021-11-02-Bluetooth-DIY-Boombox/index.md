@@ -33,10 +33,6 @@ Le but est de réussir a integrer tout le systeme d'une **Big Jambox** dans une 
 - Recharge externe
 
 
-
-S'il est possible d'y caser plus de batterie également, cela sera fait.
-
-
 ![](img/big-jambox.jpg#center) 
 ![](img/peli-1120-closed.jpg#center) 
 
