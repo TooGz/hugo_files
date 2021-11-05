@@ -1,9 +1,8 @@
 ---
-title: "2021 10 15 Renovation Maison Todolist"
+title: "[TODO] Maison"
 description: "<text>"
 date: 2021-10-15T15:42:37+02:00
-tags: ["<tag1>", "<tag2>"]
-categories: ["<categorie1>","<categorie2>"]
+tags: ["todolist", "rénovation"]
 
 cover:
     image: "img/cover.jpg"

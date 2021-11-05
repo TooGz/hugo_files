@@ -1,10 +1,10 @@
 ---
-title: "2021 10 28 Cryptomonnaies"
+title: "Cryptomonnaies"
 description: "<text>"
 slug: "cryptomonnaies"
 date: 2021-10-28T14:27:28+02:00
 author: "TooGz"
-tags: ["cryptomonnaies", "bitcoin"]
+tags: ["cryptomonnaies", "bitcoin", "ethereum"]
 cover:
     image: img/cover.jpg
     alt: "<text>"
