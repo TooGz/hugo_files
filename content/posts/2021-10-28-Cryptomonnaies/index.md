@@ -21,7 +21,3 @@ ShowToc: true
 
 [Qu'est ce que le bitcoin ?](https://cryptoast.fr/bitcoin/)
 [Trading View](https://fr.tradingview.com/)
-
-
-
-jvjgg

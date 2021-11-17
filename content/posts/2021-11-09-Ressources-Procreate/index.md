@@ -28,6 +28,6 @@ https://annamystory.com/blog/
 https://adventureswithart.com/category/procreate
 
 
-Accessoire iPad Pro
+Accessoires iPad Pro
 
 https://www.padandquill.com/oxford-leather-ipad-pro-case-129-5.html

@@ -4,7 +4,7 @@ date: "2019-03-05"
 description: "Jouer a vos jeux d'enfance sur votre Mac"
 tags: ["retrogaming", "macos"]
 cover:
-  image: "https://cdn.shopify.com/s/files/1/0262/0243/9783/articles/Sans_titre_72_5bb394fb-312e-483a-be8d-aee625c31e33.jpg?v=1619812003"
+  image: "img/cover.png"
 ShowToc: false
 ShowBreadCrumbs: false
 ---
