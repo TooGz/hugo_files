@@ -1,7 +1,7 @@
 ---
 title: "2021 11 07 Electricité Maison"
 description: "<text>"
-slug: "<text>"
+slug: "electricite-maison"
 date: 2021-11-07T09:03:50+01:00
 author: "TooGz"
 tags: ["eledtricité", "maison"]

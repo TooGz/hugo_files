@@ -1,7 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 description: "<text>"
-slug: "<text>"
+slug: "{{ replace .Name "-" "-" | title }}"
 date: {{ .Date }}
 author: "TooGz"
 tags: ["tag1", "tag2"]
