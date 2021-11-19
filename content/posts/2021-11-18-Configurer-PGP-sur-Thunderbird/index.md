@@ -19,7 +19,7 @@ params:
 ShowToc: true
 ---
 
-## Présentation succinte
+# Présentation succinte
 
 PGP (Pretty Good Privacy) est un système de chiffrement open-source, couramment utilisé pour le chiffrage d’emails ou de fichiers.
 
@@ -29,7 +29,7 @@ Tout d’abord, ce système est à l’origine un  "freeware" (logiciel gratuit)
 
 En outre, PGP utilise à la fois le chiffrement symétrique et le chiffrement par clé publique. Ceci permet à des utilisateurs de s’envoyer des messages chiffrés, sans même avoir besoin d’échanger des clés de chiffrement privées au préalable. Ainsi, le PGP permet de renforcer facilement et à moindre coût la sécurité des emails.
 
-## Fonctionnement de PGP
+# Fonctionnement de PGP
 
 Il existe de nombreux systèmes de chiffrement. En guise d’exemples, on peut citer SSL pour le chiffrement de sites web, ou Kerberos pour l’authentification des utilisateurs d’un réseau.
 
@@ -46,23 +46,28 @@ Le chiffrement symétrique est plus rapide que le chiffrement par clé publique,
 C’est la raison pour laquelle on utilise une clé de chiffrement publique pour chiffrer la clé de session. Ainsi, PGP combine l’efficacité du chiffrement symétrique et la sécurité du chiffrement par clé publique.
 
 
-## Configuration des clients mails
+# Configuration des clients mails
 
-### Thunderbird
+## Thunderbird
 
-#### Générer sa clé PGP
+### Générer sa clé PGPk
 
 Le client mail Thunderbird supporte nativement OpenPGP depuis la version 78.
 
 1. Aller dans Parametres de comptes > Choisir votre compte > Chiffrement de bout en bout.
 
-![](img/thunderbolt-configuration-pgp-0.png#center)
 
 2. Cliquer sur Ajouter une clé ...
 
-![](img/thunderbolt-configuration-pgp-1.png#center)
+![](img/thunderbolt-configuration-pgp-0.png#center)
+
 
 3. Ensuite, créer une clé OpenPGP
+
+![](img/thunderbolt-configuration-pgp-1.png#center)
+
+
+4. Générer la clé
 
 ![](img/thunderbolt-configuration-pgp-2.png#center)
 
@@ -71,7 +76,6 @@ Type de clé: RSA
 Taille de la clé: plus fort possible (ici 4096)
 ```
 
-4. Générer la clé
 
 ![](img/thunderbolt-configuration-pgp-3.png#center)
 ![](img/thunderbolt-configuration-pgp-4.png#center)
@@ -79,8 +83,6 @@ Taille de la clé: plus fort possible (ici 4096)
 5. Sauvegarder ses clés
 
 Cliquer sur la clé nouvellement crée et sur *Plus* > *sauvegarder la clé secrete dans un fichier* afin de la sauvergarder dans un endroit sur. (Gestionnaire de password ?)
-
-![](img/thunderbolt-configuration-pgp-5.png#center)
 
 Ajouter un mot de passe lors de l'export de la clé.
 
@@ -93,7 +95,8 @@ Faire de même pour la clé publique (pas de mot de passe requis).
 
 ![](img/thunderbolt-configuration-pgp-8.png#center)
 
-#### Importer les clés publiques des correspondants avec qui on souhaite chiffré ses mails
+### Importer les clés publiques des correspondants avec qui on souhaite chiffré ses mails
 
 Afin de pouvoir échangé de manière chiffrée, il est nécéssaire d'ajouter la clé publique de vos destinataires dans le gestionnaire de clé de thunderbird.
+
 
