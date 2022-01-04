@@ -1,0 +1,46 @@
+---
+title: "Consoles Eclatées"
+description: ""
+slug: "Consoles-Eclatées"
+date: 2021-12-10T09:10:25+01:00
+author: "TooGz"
+tags: ["retrogaming"]
+cover:
+    image: img/cover.jpg
+    alt: "<text>"
+    caption: "<text>"
+    relative: false # To use relative path for cover image, used in hugo Page-bundles
+params:
+    cover:
+        linkFullImages: true
+    ShowReadingTime: true
+    ShowPostNavLinks: true
+
+ShowToc: true
+---
+
+[Portfolio de l'artiste Pierre Roussel](https://www.artstation.com/pierreroussel)
+
+## Sega Dreamcast
+![](img/dc.jpg)
+
+## Nintendo Gamecube
+![](img/gc-black.jpg)
+![](img/gc-purple.jpg)
+
+## Nintendo 64
+![](img/n64.jpg)
+
+## Playstation
+![](img/ps.jpg)
+![](img/ps2.jpg)
+![](img/ps3.jpg)
+![](img/ps4.jpg)
+
+## Nintendo Wii
+![](img/wii.jpg)
+
+## Microsoft Wbox
+![](img/xbox.jpg)
+![](img/xbox360.jpg)
+![](img/xbox360-black.jpg)
