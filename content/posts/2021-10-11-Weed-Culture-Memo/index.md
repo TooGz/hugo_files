@@ -30,6 +30,16 @@ La terre est le substrat historique et souvent le premier qui nous vient à l'id
 
 Naturel et bon marché c'est un espace de culture simple et efficace pour commencer la culture de cannabis.
 
+### Hydro
+
+### DWC (Deep Water Culture)
+
+https://www.trees.com/gardening-and-landscaping/deep-water-culture
+
+https://www.growweedeasy.com/how-sirius-grows
+
+https://www.growweedeasy.com/high-yield-bubbleponics-technique
+
 #### Plagron
 
 **ROYALMIX**
