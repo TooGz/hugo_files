@@ -1,7 +1,7 @@
 ---
-title: "Naviguer sereinement sur le dark web avec Tails"
+title: "Protéger au mieux votre vie privée avec l'OS Tails"
 description: "<text>"
-slug: "Naviguer-sereinement-sur-le-dark-web-avec-Tails"
+slug: "proteger-votre-vie-privee-avec-Tails"
 date: 2021-11-15T10:52:46+01:00
 author: "TooGz"
 tags: ["IT", "Linux", "Tails"]
