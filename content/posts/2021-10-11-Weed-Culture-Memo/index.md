@@ -30,155 +30,7 @@ La terre est le substrat historique et souvent le premier qui nous vient à l'id
 
 Naturel et bon marché c'est un espace de culture simple et efficace pour commencer la culture de cannabis.
 
-### Hydro
 
-### DWC (Deep Water Culture)
-
-https://www.trees.com/gardening-and-landscaping/deep-water-culture
-
-https://www.growweedeasy.com/how-sirius-grows
-
-https://www.growweedeasy.com/high-yield-bubbleponics-technique
-
-#### Plagron
-
-**ROYALMIX**
-
-![](/img/posts/2021-10-11-Weed-Culture-Memo/substrats/terre/plagron-royalmix.png#center)
-
->Royalmix de Plagron est un substrat prêt à l'utilisation pour planter ou rempoter toutes les plantes à fleurs. 
-
-**Utilisation**                                                                                                    
-Rince avec de l'eau afin de laver les nutriments absorbables immédiatement. Un extra en nutrition sera nécessaire après 6 semaines environ, en fonction des conditions de la plante.
-
-**Caractéristiques**                                                                                                     
-Tourbe, perlite, vermicompost, fertilisants organiques.
-
-* **pH**: 6,4 - 7,8
-* **E.C. (1:1,5)**: 1,0 - 1,6 mS/cm
-* **NPK**: 5,5-11-5,5
-
----
-
-**PROMIX**
-
-![](/img/posts/2021-10-11-Weed-Culture-Memo/substrats/terre/plagron-promix.png#center)
-
->Plagron Promix est un mélange des meilleures sélections de tourbe. L'ajout de différents types de fibres offre une légèreté et un niveau d'oxygène ne pouvant provenir que des substrats de qualité Plagron. Aucun nutriment n'a été ajouté au Promix, seulement du vermicompost Plagron. Le vermicompost stimule la formation d'organismes du sol et active les fertilisants organiques qui doivent être ajoutés dés le premier jour. Le Promix sera donc parfait si tu souhaites fertiliser organiquement tes plantes selon tes propres choix et jugements. Il en résultera une récolte 100 % organique. Promix produira de meilleures récoltes si il est utilisé en combinaison avec Plagron Alga Grow, Alga Bloom et les additifs Plagron.
-
-**Utilisation**                                                                                                    
-Fertilise dés le premier jour avec Alga Grow par exemple.
-
-**Caractéristiques**                                                                                                       
-Tourbe, vermicompost.
-
-* **pH**: 6,5 - 7,9
-* **E.C. (1:1.5)**: 0,5 - 0,8 mS/cm
-
----
-
-**SEEDING & CUTTING SOIL**
-
-![](/img/posts/2021-10-11-Weed-Culture-Memo/substrats/terre/plagron-seeding-and-cutting-soil.png#center)
-
-**Utilisation**                                                                                                    
-Planter les semis et les boutures dans un pot contenant du Seeding & Cutting Soil.
- 
-**Caractéristiques**
-Tourbe, sable.
-
-* **pH**: 5,3 - 6,4
-* **EC (1:1.5)**: 0,5 mS/cm
-* **NPK**: 12-14-24
-
----
-
-## NUTRIMENTS
-### PLAGRON
-#### ENGRAIS
-
-**ALGA GROW**
-
-![](/img/posts/2021-10-11-Weed-Culture-Memo/nutriments/plagron-alga-grow.png#center)
-
->Alga Grow est un nutriment de base spécialement conçu pour les cultures en terre. Alga Grow est à utiliser durant la phase de croissance. Ce nutriment, à base d'algue, contribue à une croissance saine et équilibrée ainsi qu'à un bon développement racinaire. Alga Grow fournit une base solide à la plante pour une floraison ultérieure abondante.
-
-**Dosage et utilisation**                                          
-Bien agiter avant utilisation. Ajouter un maximum de 4 ml d'Alga Grow pour un litre d'eau (1:250). Utilise cette solution nutritive à chaque arrosage pendant la phase de croissance. Pour obtenir des conseils personnalisés, consulte notre générateur de planning de culture en ligne.
-
-**Caractéristiques**                                 
-Fertilisant NPK (4-2-4)
-
----
-
-**ALGA BLOOM**
-
-![](/img/posts/2021-10-11-Weed-Culture-Memo/nutriments/plagron-alga-bloom.png#center)
-
->Alga Bloom est un nutriment de base spécialement conçu pour la culture en terre. Alga Bloom est à utilisé pendant la phase de floraison. Ce fertilisant, à base d'algue, contribue à rendre les plantes saines et résistantes afin qu'elles fleurissent abondamment.
-
-**Dosage et utilisation**                                                                
-Bien agiter avant utilisation. Ajouter un maximum de 4 ml d'Alga Bloom pour un litre d'eau (1:250). Utilise cette solution nutritive à chaque arrosage pendant la phase de floraison. Pour obtenir des conseils sur mesure, consulte notre générateur de planning de culture en ligne.
-
-**Caractéristiques**                                                                                                         
-Fertilisant NPK (3-2-5)
-
----
-
-#### ADDITIFS
-**GREEN SENSATION**
-
-![](/img/posts/2021-10-11-Weed-Culture-Memo/nutriments/plagron-greensensation.png#center)
-
->Green Sensation est un fertilisant puissant qui peut être combiné avec n'importe quels styles de culture, garantissant le meilleur goût et les plus gros rendements. Il combine 4 effets positifs en 1 bouteille. Green Sensation améliore la floraison, le sol, le rendement et le goût.
-
-**Dosage et utilisation**                                                                                 
-Ajouter 1 ml de Green Sensation pour 1 litre d'eau (1:1000). Après cela, ajouter les nutriments de base jusqu'à atteindre la valeur EC désirée. Utilise cette solution nutritive chaque fois que les plantes sont irriguées. Green Sensation a été conçu spécialement pour une utilisation à partir de la quatrième semaine de la phase de floraison.
- 
-**Caractéristiques**                                                                   
-Fertilisant NPK (0-9-10)
-
----
-
-**SUGAR ROYAL**
-
-![](/img/posts/2021-10-11-Weed-Culture-Memo/nutriments/plagron-sugar-royale.png#center)
-
->Sugar Royal est utilisé dans la culture des plantes pour améliorer la saveur naturelle et le goût du produit final. Il est à utiliser en addition avec les nutriments de base. Le processus naturelle de la plante durant la floraison sera soutenu avec l'utilisation du Sugar Royal.
-
-**Dosage et utilisation**                                                                 
-Bien agiter avant utilisation. Ajouter un maximum de 1 ml de Sugar Royal pour 1 litre d'eau (1:1000). Utilise cette solution nutritive à partir de la deuxième semaine de croissance, chaque fois que tu arroses tes plantes.
- 
-**Caractéristiques**                                                              
-Fertilisant NPK (8-0-0).
-
----
-
-**POWER ROOTS**
-
-![](/img/posts/2021-10-11-Weed-Culture-Memo/nutriments/plagron-power-roots.png#center) 
-
->Power Roots est un stimulateur racinaire. Ce stimulateur est utile pendant la phase de croissance et les premières semaines de la phase de floraison. Power Roots stimule le développement des racines et augmente la résistance de la plante. Il fait effet très rapidement, est économique et est absorbé par la plante pratiquement immédiatement. Power Roots assure le développement de plantes saines et fortes.
-
-**Dosage et utilisation**                                                        
-Bien agiter avant utilisation. Ajouter 1 ml de Power Roots pour 1 litre d'eau (1:1000). Utiliser cette solution chaque fois que les plantes sont irriguées jusqu'à la quatrième semaine de la phase de floraison.
- 
-**Caractéristiques**                                          
-Fertilisant NPK (0-0-2)
-
----
-
-**PURE ZYM**
-
-![](/img/posts/2021-10-11-Weed-Culture-Memo/nutriments/plagron-pure-zym.png#center)
-
->Pure Zym est un améliorateur de sol basé sur des enzymes naturels. Il promeut l’accélération de la destruction de la matière végétale morte. Cela permet à d'autres nutriments stimulant la vie du sol d'être relâcher. Pure Zym augmente aussi la capacité d'absorption d'oxygène.
-
-**Dosage et utilisation**                                                           
-Bien agiter avant utilisation. Ajouter 1 ml de Pure Zym pour 1 litre d'eau (1:1000). Utiliser cette solution chaque fois que les plantes sont irriguées pendant toute la culture.
- 
-**Caractéristiques**                                                                            
-Solution stabilisée d'enzyme.
 
 ---
 
@@ -196,6 +48,45 @@ Solution stabilisée d'enzyme.
 |ALGA BLOOM  |              |        |        |        |           |          |  3ml/L |  4ml/L |  2ml/L |  2ml/L |  2ml/L |  2ml/L |           |           |
 |GREEN SENS. |              |        |        |        |           |          |        |        |        |        |        |        |           |           |
 |SUGAR ROYAL |              |        |        |        |  1ml/L    |  1ml/L   |  1ml/L |  1ml/L |  1ml/L |  1ml/L |  1ml/L |  1ml/L |           |           |
+
+
+
+### Hydro
+
+#### DWC (Deep Water Culture)
+
+https://www.trees.com/gardening-and-landscaping/deep-water-culture
+
+https://www.growweedeasy.com/how-sirius-grows
+
+https://www.growweedeasy.com/high-yield-bubbleponics-technique
+
+#### Engrais
+
+##### Ratio NPK
+ 
+ * N = Azote
+ * P = Phosphore
+ * K = Potassium
+
+![](img/npk.jpg#center)
+
+* Phosphore augmente le nombre de fleurs
+* Potassium augmente la taille/poids des fleurs
+
+#### pH
+
+Optimal: 5.5 - 6.5
+
+![](img/hydro_ph.jpg#center)
+
+Le pH variera légerement au cours du temps, cela n'est pas grave et même bénéfique pour l'assimilation des nutriments par les racines (Certains éléments sont absorbé a "bas" pH tandis que d'autre préfère les pH plus élévés).
+
+le pH devra etre corrigé lorsqu'il dépasses les limites (5.5 - 6.5).
+
+Le pH devra eventuellement etre ajusté apres l'ajout des nutriments, qui peuvent influer sur celui ci.
+
+
 
 ## ECLAIRAGE
 ### UVB
@@ -386,6 +277,7 @@ En fait, c’est évolutionnaire, et à travers les années, aux côtés de la m
 
 ["Grow Hack : est-ce que la lumière UV peut augmenter la puissance du cannabis ?" par HighTimes](http://www.chanvre-info.ch/info/fr/Grow-Hack-est-ce-que-la-lumiere-UV.html)
 
+
 ## GERMINATION
 
 ## CROISSANCE
@@ -441,7 +333,7 @@ Durant ces quelques seimaines supplémentaires, les buds vont devenir plus gros 
 ### CURING
 
 ## SETUP
-### MON SETUP ACTUEL (2020)
+### MON SETUP ACTUEL (OLD)(2020)
 
 **Matériel**
 
@@ -478,9 +370,23 @@ Durant ces quelques seimaines supplémentaires, les buds vont devenir plus gros 
 * Correcteur PH
 * Root Pouch 10L + 30L
 
-### SETUP DE REVE
+### SETUP 2022
 
 **Matériel**
 
-* Remplacer les MH/HPS par LED + UVB
-* Box CRO + PM dédié
+* Box Gorilla Grow Tent 4'x4'x6'11 (122x122x210)
+* Ballast Electronique LUMATEK 400/600W
+* Ampoule 600W MH LUMATEK(CRO)
+* Ampoule 600W HPS PHILLIPS (FLO) (A ACHETER)
+* Système Hydro NFT Terra Aquatica GrowStream 10
+* Reflecteur Adjust-A-Wing
+* Extracteur PrimaKlima PK150-TC
+* Ventilateur oscillant grand modèle
+* Humidificateur
+* Testeur PH
+* Testeur EC/PPM
+
+
+## LIENS
+
+[[Rollitup] 500g toutes les 3 semaines(en)](https://www.rollitup.org/t/harvest-a-pound-every-three-weeks.116859/)
