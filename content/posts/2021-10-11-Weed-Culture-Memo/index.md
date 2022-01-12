@@ -20,6 +20,8 @@ ShowToc: true
 ShowBreadCrumbs: false
 ---
 
+https://www.youtube.com/watch?v=nyqykZK2Ev4
+
 Recueil de documentations et d'experiance sur la culture de Weed en intérieur (et aussi en extérieur) <!--more-->
 
 ## Substrats
