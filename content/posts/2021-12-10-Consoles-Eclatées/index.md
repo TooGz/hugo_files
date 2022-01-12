@@ -32,7 +32,7 @@ ShowToc: true
 ![](img/n64.jpg)
 
 ## Playstation
-![](img/ps.jpg)
+![](img/ps.jpg)R1Y
 ![](img/ps2.jpg)
 ![](img/ps3.jpg)
 ![](img/ps4.jpg)
