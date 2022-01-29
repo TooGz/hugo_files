@@ -376,13 +376,13 @@ Durant ces quelques seimaines supplémentaires, les buds vont devenir plus gros 
 
 **Matériel**
 
-* Box Gorilla Grow Tent 4'x4'x6'11 (122x122x210)
-* Ballast Electronique LUMATEK 400/600W
-* Ampoule 600W MH LUMATEK(CRO)
-* Ampoule 600W HPS PHILLIPS (FLO) (A ACHETER)
-* Système Hydro NFT Terra Aquatica GrowStream 10
-* Reflecteur Adjust-A-Wing
-* Extracteur PrimaKlima PK150-TC
+* Box **Gorilla Grow Tent** 4'x4'x6'11 (122x122x210)
+* Ballast Electronique **LUMATEK** 400/600W
+* Ampoule 600W MH **LUMATEK** (CRO)
+* Ampoule **600W HPS PHILLIPS** (FLO) (A ACHETER)
+* Système Hydro NFT **Terra Aquatica GrowStream 10**
+* Reflecteur **Adjust-A-Wing**
+* Extracteur **PrimaKlima PK150-TC**
 * Ventilateur oscillant grand modèle
 * Humidificateur
 * Testeur PH
