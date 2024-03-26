@@ -17,6 +17,7 @@ params:
     ShowPostNavLinks: true
 
 ShowToc: true
+draft: true
 ---
 
 ## Utiliser un ordinateur dédié pour les activités anonymes

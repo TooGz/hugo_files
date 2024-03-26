@@ -5,7 +5,7 @@ date: 2021-11-02T14:17:20+01:00
 lastmodify: 2021-11-04
 tags: ["DIY", "boombox"]
 cover:
-    image: "img/cover.jpg"
+    image: "img/cover.webp"
 params:
     cover:
         linkFullImages: true
