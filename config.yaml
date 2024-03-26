@@ -1,6 +1,6 @@
 baseURL: http://localhost:1313/
 title: TooGz Website
-paginate: 20
+paginate: 10
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -53,10 +53,12 @@ params:
             url: /posts
           - name: Réalisations
             url: /realisations
-          - name: Maison
-            url: /maison
+          - name: Rénovation
+            url: /renovation
           - name: Autosuffisance
             url: /autosuffisance
+          - name: Jardin
+            url: /jardin
 
     socialIcons: # optional
       - name: "instagram"
