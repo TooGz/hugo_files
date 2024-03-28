@@ -1,5 +1,5 @@
 baseURL: http://localhost:1313/
-title: TooGz Website
+title: TooGz.fr
 paginate: 10
 theme: PaperMod
 
@@ -27,10 +27,10 @@ menu:
           url: tags
           weight: 10
         - name: Categories
-          url: categories
+          url: categories/
           weight: 10
         - name: Series
-          url: series
+          url: series/
           weight: 10
     
 outputs:
@@ -44,7 +44,7 @@ params:
         enabled: true
         title: TooGz # optional
         subtitle: Mon petit bordel sur le web ...
-        imageUrl: /img/TooGz.jpg # optional
+        imageUrl: /img/TooGz.webp # optional
         imageTitle: TooGz aka Guillaume Boivin # optional
         imageWidth: 150 
         imageHeight: 150

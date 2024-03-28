@@ -1,8 +1,8 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "2024 03 28 Test"
 description: "<text>"
-slug: "{{ replace .Name "-" "-" | title }}"
-date: {{ .Date }}
+slug: "2024-03-28-Test"
+date: 2024-03-28T09:29:33+01:00
 author: "TooGz"
 tags: ["tag1", "tag2"]
 cover:
@@ -17,5 +17,5 @@ params:
     ShowPostNavLinks: true
 
 ShowToc: true
-draft: true
+draft: false
 ---
