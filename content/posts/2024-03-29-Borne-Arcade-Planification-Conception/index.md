@@ -25,12 +25,13 @@ draft: true
 Me voila à l'une des étapes les plus importantes (LA plus importante ?), la planification du projet.
 Cette étape est cruciale pour identifier le plus rapidement possible les points critiques et faciliter le bon déroulement de la construction par la suite.
 
-1. Introduction à la Planification
+## Compréhension du Projet
 
-    Objectif de la section : Expliquer pourquoi une bonne planification est essentielle pour la création d'une machine d'arcade sur mesure.
-    Vue d'ensemble de la planification : Introduction aux étapes clés de la planification, soulignant l'importance de chaque étape dans le processus global.
+Le premier but de la réalisation d'une borne 2 joueurs et pour mon utilité.
 
-2. Compréhension du Projet
+Divertissement personnel : Si le but est de se divertir, considérez quels types de jeux vous passionnent le plus. Voulez-vous revivre des classiques de l'arcade ou explorer des jeux modernes?
+
+Partage avec la famille et les amis : Si l'objectif est de partager des moments avec proches, pensez à des jeux multijoueurs, à l'ergonomie pour tous les âges et à la facilité d'utilisation.
 
     Définition des objectifs : Clarification des buts personnels et des attentes du projet (divertissement personnel, pièce de collection, etc.).
     Choix du type de machine d'arcade : Décision entre une réplique d'arcade classique, une borne multi-jeux, ou une conception personnalisée.

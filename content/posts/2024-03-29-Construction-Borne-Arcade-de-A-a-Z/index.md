@@ -25,6 +25,26 @@ draft: true
 
 Créer une borne d'arcade à part entière pour deux joueurs est un projet ambitieux qui allie passion pour le rétro-gaming, compétences techniques en électronique et en informatique, et savoir-faire en menuiserie. Cet article détaillé guidera les enthousiastes à travers ce guide de recherches, de la planification initiale à la réalisation finale.
 
+Bonjour à tous,
+
+Aujourd'hui, je suis ravi de partager avec vous un projet qui me tient particulièrement à cœur : la construction de ma propre borne d'arcade. Cette aventure n'est pas seulement le fruit d'une passion pour le jeu vidéo en général, mais c'est surtout un hommage au retrogaming, à ces classiques indémodables qui ont marqué mon enfance et continuent de fasciner des générations de joueurs.
+Une Passion pour le Jeu Vidéo et le Retrogaming
+
+Le jeu vidéo fait partie de ma vie depuis que je suis en âge de tenir une manette. Avec le temps, cette passion ne s'est pas estompée ; au contraire, elle s'est enrichie, me poussant à explorer l'histoire et l'évolution de ces mondes virtuels. Parmi les expériences les plus marquantes, les jeux d'arcade occupent une place spéciale. Il y a quelque chose de magique dans ces machines, une essence qui capte l'essence même du jeu vidéo : le défi, l'amusement, et le partage. Le retrogaming, avec son charme nostalgique et ses défis intemporels, m'a toujours particulièrement attiré. Il me rappelle une époque où la simplicité et l'ingéniosité des jeux créaient des expériences inoubliables.
+Plus qu'un projet, C'est surtout un moyen de partager des moments conviviaux.
+
+Mais ce projet va bien au-delà d'une simple quête personnelle ; il est surtout motivé par le désir de créer des moments de convivialité avec mes amis et ma famille. Une borne d'arcade, c'est un point de rassemblement, un prétexte pour se retrouver et partager des rires, des défis, et parfois même des frustrations joyeuses face à un niveau particulièrement ardu. Dans un monde de plus en plus numérique, où les interactions se font souvent à distance, l'idée de construire un espace dédié au partage et à l'amusement commun me semble particulièrement précieuse.
+Le Début d'une Aventure
+
+La route sera longue, les défis nombreux, mais l'excitation est à son comble. Je vais plonger dans chaque aspect de la construction de cette borne, de l'assemblage des pièces à la conception de l'interface, en passant par la sélection des jeux et la personnalisation esthétique de la machine. Ce projet est l'occasion pour moi de combiner ma passion pour le jeu vidéo et mon amour du bricolage et de la création.
+
+Je partagerai avec vous chaque étape de ce voyage, les réussites, les obstacles, et bien sûr, les nombreux apprentissages que j'espère retirer de cette expérience. Mon objectif est de vous inspirer, de vous fournir des conseils pratiques, et peut-être même de vous encourager à vous lancer dans vos propres projets de retrogaming.
+
+Restez à l'écoute pour suivre l'avancement de ce projet passionnant, et n'hésitez pas à partager vos propres expériences et conseils sur le retrogaming et la construction de bornes d'arcade.
+
+À bientôt pour la suite de cette aventure arcade !
+
+
 ## Introduction
 
 ### Présentation du projet
