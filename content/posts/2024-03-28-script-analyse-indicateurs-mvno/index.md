@@ -36,13 +36,57 @@ Le script se compose de plusieurs sections, chacune ayant un rôle spécifique d
 
 Le changelog documente l'évolution du script, incluant les auteurs, les versions, les dates, ainsi que les commentaires détaillant les modifications apportées au fil du temps. Cela permet de suivre facilement les améliorations et les optimisations réalisées.
 
+``` bash
+######################################################################################
+#                                 -- Changelog --
+######################################################################################
+# Auteur  |  Ver  |   Date   |  DA / INC | Commentaires 
+#---------|-------|----------|-----------|--------------------------------------------
+#  GBO    |  1.0  | 20230420 | DA_17523  | Création du script initial pour le suivi et la
+#         |       |          |           | supervision dynamique des indicateurs en erreur.
+#  GBO    |  1.1  | 20240220 | DA_18524  | Optimisation du script pour améliorer la performance
+#         |       |          |           | et supprimer les fichiers temporaires.
+#         |       |          |           | Ajout de la fonction de debug et amélioration de la 
+#         |       |          |           | gestion des erreurs.
+#  GBO    |  1.2  | 20240305 | DA_17523  | Gestion des nombres a virgules flottantes
+#---------|-------|----------|-----------|--------------------------------------------
+```
+
 ### Description du Fonctionnement
 
 Cette section décrit le but du script et explique comment il fonctionne. Le script parse les valeurs retournées par le service web `https://crm.v3.mvno.afone.priv/indicateur.php`, vérifiant si elles dépassent les seuils définis. Les données sont présentées dans un format spécifique, incluant l'ID de l'indicateur, sa valeur, le seuil et un code couleur.
 
+``` bash
+######################################################################################
+#                        -- Description du fonctionnement --
+######################################################################################
+# Ce script a pour but de retourner de manière dynamique en supervision les indicateurs
+# qui sont en état d'erreur. Il parse les valeurs retournées par le 
+# service web (https://crm.v3.mvno.afone.priv/indicateur.php) et vérifie si elles 
+# dépassent les seuils définis. Les indicateurs sont présentés dans le format suivant :
+#
+#   [ID Indicateurs];[Valeur];[Seuil];[Code Couleur]
+#       
+# Exemple de données :
+#       537;0;0<5;0
+#       539;0;0<5;0
+#       540;0;0<5;0
+#       541;0;0<5;0
+#
+######################################################################################
+```
+
 ### Variables de Configuration
 
 Le script permet d'activer ou de désactiver le mode débogage via une variable `DEBUG_MODE`. Il définit également l'URL du service web à interroger et le chemin des fichiers utilisés pour le traitement des données.
+
+``` bash
+# Varibles de configuration
+DEBUG_MODE=0 # Activer (1) ou désactiver (0) le mode débogage
+URL_CRM="http://recette.crm.mvno.afone.priv/indicateur.php"
+FILE_DATA="./check_indicateurs_mvno_DATA"
+FILE_DATA_CLEANED="./check_indicateurs_mvno_DATA_cleaned"
+```
 
 ### Fonctions
 
@@ -52,6 +96,50 @@ Plusieurs fonctions sont définies pour faciliter le traitement des données :
 - `round` : arrondit les nombres à virgule flottante.
 - `replace_float_number_in_string` : remplace un nombre à virgule flottante par une variable dans une chaîne de caractères.
 - Et d'autres fonctions pour le téléchargement, le nettoyage des données, et l'analyse des indicateurs.
+
+``` bash
+# FONCTIONS
+
+# Afficher les messages de débogage si le mode débogage est activé.
+# $1 : Le message de débogage à afficher.
+debug() {
+    [ "$DEBUG_MODE" -eq 1 ] && echo "[$(date '+%Y-%m-%d %H:%M:%S')] - Debug: $1"
+}
+
+# Arrondir vers le haut pour 0.5, et vers le bas pour tout le reste
+# $1 : nombre a arrondir
+#
+# echo $(round 3.5)  # Output: 4
+# echo $(round 3.2)  # Output: 3
+# echo $(round 3.8)  # Output: 4
+# echo $(round 4.0)  # Output: 4
+# echo $(round 4.5)  # Output: 5
+# echo $(round 4.7)  # Output: 5
+
+round() {
+  local num="$1"
+  local int_part=$(echo "$num" | cut -d'.' -f1)
+  local decimal_part=$(echo "$num" | cut -d'.' -f2)
+  local rounded_decimal=$(echo "0.$decimal_part" | bc -l)
+  local rounded_int=0
+  
+  if (( $(echo "$rounded_decimal >= 0.5" | bc -l) )); then
+    rounded_int=$(echo "$int_part + 1" | bc)
+  else
+    rounded_int="$int_part"
+  fi
+  
+  echo "$rounded_int"
+}
+
+# Fonction pour remplacer un nombre à virgule flottante par une variable dans une chaîne
+# Arguments : $1 = chaîne de caractères, $2 = nom de la variable
+replace_float_number_in_string() {
+    # Utilise sed pour remplacer les nombres à virgule flottante par la variable
+    modified_string=$(echo "$1" | sed -E "s/([0-9]+\.[0-9]+)/$2/g")
+    echo "$modified_string"
+}
+```
 
 ### Flux Principal
 
