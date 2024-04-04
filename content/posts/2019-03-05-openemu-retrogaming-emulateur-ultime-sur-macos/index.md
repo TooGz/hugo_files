@@ -2,15 +2,12 @@
 title: "OpenEmu - Retrogaming l'émulateur ultime sur MacOS"
 date: "2019-03-05"
 description: "Jouer a vos jeux d'enfance sur votre Mac"
-tags: ["retrogaming", "macos"]
+tags: ["Retrogaming", "MacOS", "Arcade"]
 cover:
-  image: "img/cover.png"
+  image: "img/cover.webp"
 ShowToc: false
 ShowBreadCrumbs: false
 ---
-
-
-https://r-roms.github.io/megathread/retro/
 
 Découvrez une petite perle de logiciel retrogaming sur Mac: **OpenEmu**
 <!--more-->
