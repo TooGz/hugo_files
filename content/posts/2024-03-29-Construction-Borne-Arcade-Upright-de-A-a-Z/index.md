@@ -1,7 +1,7 @@
 ---
 title: "Construire une borne d'arcade 2 joueurs De A à Z"
-description: "<text>"
-slug: "2024-03-29-Construction-Borne-Arcade-De-A-a-Z"
+description: "Planification approfondie de la création d'une borne d'arcade upright"
+slug: "2024-03-29-Construction-Borne-Arcade-Upright-De-A-a-Z"
 date: 2024-03-29T09:27:04+01:00
 author: "TooGz"
 tags: ["Arcade", "DIY", "Borne"]
@@ -10,7 +10,7 @@ series: ["Borne d'Arcade DIY"]
 
 cover:
     image: img/cover.webp
-    alt: "Esquisse technique au crayon sur papier, représentant la conception d'une borne d'arcade de luxe à deux joueurs, de 32 pouces."
+    alt: "Esquisse technique au crayon sur papier, représentant la conception d'une borne d'arcade de luxe à deux joueurs, de 32 pouces. [dall-e]"
     caption: "Esquisse au crayon sur papier, représentant la conception d'une borne d'arcade à deux joueurs"
     relative: false # To use relative path for cover image, used in hugo Page-bundles
 params:
@@ -22,29 +22,6 @@ params:
 ShowToc: true
 draft: true
 ---
-
-Créer une borne d'arcade à part entière pour deux joueurs est un projet ambitieux qui allie passion pour le rétro-gaming, compétences techniques en électronique et en informatique, et savoir-faire en menuiserie. Cet article détaillé guidera les enthousiastes à travers ce guide de recherches, de la planification initiale à la réalisation finale.
-
-Bonjour à tous,
-
-Aujourd'hui, je suis ravi de partager avec vous un projet qui me tient particulièrement à cœur : la construction de ma propre borne d'arcade. Cette aventure n'est pas seulement le fruit d'une passion pour le jeu vidéo en général, mais c'est surtout un hommage au retrogaming, à ces classiques indémodables qui ont marqué mon enfance et continuent de fasciner des générations de joueurs.
-Une Passion pour le Jeu Vidéo et le Retrogaming
-
-Le jeu vidéo fait partie de ma vie depuis que je suis en âge de tenir une manette. Avec le temps, cette passion ne s'est pas estompée ; au contraire, elle s'est enrichie, me poussant à explorer l'histoire et l'évolution de ces mondes virtuels. Parmi les expériences les plus marquantes, les jeux d'arcade occupent une place spéciale. Il y a quelque chose de magique dans ces machines, une essence qui capte l'essence même du jeu vidéo : le défi, l'amusement, et le partage. Le retrogaming, avec son charme nostalgique et ses défis intemporels, m'a toujours particulièrement attiré. Il me rappelle une époque où la simplicité et l'ingéniosité des jeux créaient des expériences inoubliables.
-Plus qu'un projet, C'est surtout un moyen de partager des moments conviviaux.
-
-Mais ce projet va bien au-delà d'une simple quête personnelle ; il est surtout motivé par le désir de créer des moments de convivialité avec mes amis et ma famille. Une borne d'arcade, c'est un point de rassemblement, un prétexte pour se retrouver et partager des rires, des défis, et parfois même des frustrations joyeuses face à un niveau particulièrement ardu. Dans un monde de plus en plus numérique, où les interactions se font souvent à distance, l'idée de construire un espace dédié au partage et à l'amusement commun me semble particulièrement précieuse.
-Le Début d'une Aventure
-
-La route sera longue, les défis nombreux, mais l'excitation est à son comble. Je vais plonger dans chaque aspect de la construction de cette borne, de l'assemblage des pièces à la conception de l'interface, en passant par la sélection des jeux et la personnalisation esthétique de la machine. Ce projet est l'occasion pour moi de combiner ma passion pour le jeu vidéo et mon amour du bricolage et de la création.
-
-Je partagerai avec vous chaque étape de ce voyage, les réussites, les obstacles, et bien sûr, les nombreux apprentissages que j'espère retirer de cette expérience. Mon objectif est de vous inspirer, de vous fournir des conseils pratiques, et peut-être même de vous encourager à vous lancer dans vos propres projets de retrogaming.
-
-Restez à l'écoute pour suivre l'avancement de ce projet passionnant, et n'hésitez pas à partager vos propres expériences et conseils sur le retrogaming et la construction de bornes d'arcade.
-
-À bientôt pour la suite de cette aventure arcade !
-
-
 ## Introduction
 
 ### Présentation du projet
@@ -55,13 +32,13 @@ Le projet de créer de ses propres mains une borne d'arcade est motivé par dive
 
 Ayant déjà conçu et réalisé deux bornes d'arcade (une petite 1 joueur, ecran 9,7 pouces 4:3 d'iPad et une 19 pouces, toujours en 4:3 mais 2 joueurs), chaque projet a été une aventure d'apprentissage, me permettant d'affiner mes compétences en menuiserie, en électronique et en programmation. Ces expériences précédentes ont été essentielles pour faire mes armes, me confrontant à divers défis et me poussant à explorer de nouvelles solutions techniques et créatives.
 
-Cette nouvelle borne d'arcade n'est donc pas un simple projet. Elle est le fruit de tout ce que j'ai pu apprendre au fil de mes constructions et recherches précédentes. Elle incarne l'accumulation de connaissances techniques et d'astuces de bricolage acquis lors de la réalisation de mes premières machines. Chaque erreur passée, chaque succès, a contribué à forger une vision plus affinée et ambitieuse pour ce projet.
+Cette nouvelle borne d'arcade n'est donc pas un simple projet. Elle est le fruit de tout ce que j'ai pu apprendre au fil de mes constructions et recherches précédentes. Et de tout ce que j'ai encore apprendre ici. Elle incarne l'accumulation de connaissances techniques et d'astuces de bricolage acquis lors de la réalisation de mes premières machines. Chaque erreur passée, chaque succès, a contribué à forger une vision plus affinée et ambitieuse pour ce projet.
 
 Outre la satisfaction personnelle et le défi technique, cette borne se veut être un concentré d'innovation et de personnalisation. Elle reflétera non seulement ma passion pour les jeux d'arcade classiques, mais aussi mon évolution en tant que créateur. Avec un design pensé pour deux joueurs, elle promet des moments de partage et de compétition, rappelant les jours glorieux des salles d'arcade, tout en intégrant des fonctionnalités modernes qui témoignent des avancées technologiques et des préférences actuelles en matière de gaming.
 
 Au-delà du jeu, c'est un projet créatif, un élément de décoration qui apporte une touche unique et personnelle à l'espace de vie. Chaque choix de design, chaque composant sélectionné, est une décision longuement réfléchie qui allie esthétique et fonctionnalité, faisant de cette borne une œuvre d'art interactive et un hommage à l'age d'or du jeu vidéo.
 
-Dans cette nouvelle aventure, je compte non seulement à repousser les limites de ce que j'ai pu réaliser auparavant, mais aussi à partager cette passion et ces connaissances avec la communauté des amateurs d'arcade, offrant ainsi un aperçu du potentiel créatif et technique de cette passionante passion.
+Dans cette nouvelle aventure, je compte non seulement à repousser les limites de ce que j'ai pu réaliser auparavant, mais aussi à partager a ma petite échelle cette expérience avec la communauté des amateurs d'arcade.
 
 ---
 
@@ -105,13 +82,48 @@ Face à ces défis, il est important d'avoir une planification minutieuse, une r
 ### Définir les Objectifs du Projet
 
 * **Sélection des jeux :** Déterminer les types de jeux désirés (classiques, combats, plateforme, etc.) pour orienter le choix du matériel.
+
+  > * Depuis les débuts de l'arcade "moderne" (pac-man en gros) jusqu'a pourquoi pas la génération PS3 / Switch ( Voir [Configuration Hardware](#le-système-darcade) )
+  > * Jeu horizontal (bandes noires pour les jeux tate - voir pour faire aussi une borne only Tate :/ )
+  > * Pas de jeux spinner. ( Joystick 8-Way / 6 btn d'actions / 1 btn START / 1 btn coins ) x 2 joueurs
+  > * Guncab ( 2 Lightguns) + Emetteur IR
+  > * Pincab ?!? ( 2 btn flippers / 1 btn tirette )
+
 * **Expérience utilisateur :** Réflexion sur l’expérience de jeu (écran unique ou multiples, système sonore, etc.).
+
+  > * Jeux 1 ou 2 joueurs
+  > * Ecran 27 pouces 1440p
+  > * Son 2.1 ( 2x150W + Caisson )
+  > * Reglage son
+  > * Environnement lumineux ( boutons panel / bandeaux led rgb => "Ambilight" [*Jacky_Mode=True*])
+  > * Marquee Lumineux ( leds )
+  > * Monnayeur fonctionnel ( voir le montant - Yves si tu nous regarde !)
+  > * Jukebox Mode ? ( sujet a creuser )
+  > * Acces Rapide Clavier (Christian on pense à toi !) & Souris
+  > * Manettes ?!? ( Fil, Bluetooth ? )
+
 
 ### Conception et Plans
 
-* Dimensions ergonomiques pour deux joueurs.
-* Élaboration des plans de la borne.
-* Design et personnalisation esthétique.
+#### Dimensions ergonomiques pour deux joueurs.
+
+  > * Réflexions sur les dimensions optimales pour la borne
+  > * Inclinaison de l'écran 27 pouces
+  > * Orientation idéales enceintes et caisson
+  > * Espacement entre les joueurs
+
+#### Élaboration des plans de la borne.
+
+  > * Regroupement de toutes les idées et pré-requis
+  >   Esquisses, Rough
+  > * Mise en 3D du design final ( probablement sur Fusion 360 )
+  
+
+#### Design et personnalisation esthétique.
+
+  > * Choix du theme et des codes couleurs - Inspirations ( Pinterest )
+  > * Création des designs des vinyls ( Photoshop )
+  > * Adaptation (création ?) d'un thême Launchbox à celui de la borne ? 
 
 ---
 
@@ -120,10 +132,19 @@ Face à ces défis, il est important d'avoir une planification minutieuse, une r
 ![L'image présente une vue panoramique et détaillée du processus de sélection des composants nécessaires à la construction d'une borne d'arcade. Elle dépeint un atelier vaste, organisé en zones distinctes, chacune dédiée à une catégorie spécifique de composants.](img/selection-composants.webp)
 
 ### L’Écran et l’Affichage
+
 * Taille, type (LCD, LED), résolution, orientation (portrait ou paysage).
 
+  > * Ecran 27 pouces 16:9 QHD (Oled ? :dollars)
+  > * 2560 x 1440 ( 6 x 240p )
+  > * Paysage ( bezels pour jeux 4:3 ? )
+
 ### Le Système d’Arcade
+
 * Options de plateforme (PC, Raspberry Pi, console modifiée).
+
+  > * PC nu ( pas de boitier ) 
+
 * Logiciels et systèmes d’exploitation (Windows, Linux, RetroPie).
 
 ### Les Contrôleurs
@@ -138,7 +159,7 @@ Face à ces défis, il est important d'avoir une planification minutieuse, une r
 
 ---
 
-## 3. Construction Physique
+## 3. Construction
 
 ![Construction minimaliste d'une borne d'arcade dans un atelier épuré, avec une personne installant le panneau de contrôle contenant des joysticks et des boutons sur le cabinet. Outils organisés au sol à côté.](img/construction.webp)
 
