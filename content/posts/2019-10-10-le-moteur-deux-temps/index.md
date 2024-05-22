@@ -10,7 +10,7 @@ cover:
     image: img/cover.jpg
     alt: "Moteur 2 temps de compet'"
     caption: "<text>"
-    relative: false # To use relative path for cover image, used in hugo Page-bundles
+    
 params:
     cover:
         linkFullImages: true

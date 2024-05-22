@@ -6,24 +6,15 @@ date: 2024-04-13T18:43:02+02:00
 author: "TooGz"
 tags: ["Big Green Egg", "DIY"]
 cover:
-    image: img/cover.webp
-    alt: "<text>"
-    caption: "<text>"
-    relative: false # To use relative path for cover image, used in hugo Page-bundles
-params:
-    cover:
-        linkFullImages: true
-    ShowReadingTime: true
-    ShowPostNavLinks: true
-
+    image: "img/cover.webp"
 ShowToc: true
 draft: true
 ---
 
 ## Sites Importants
 
-[Site Officiel BGE]()
-[Reddit BGE](https://www.reddit.com/r/biggreenegg)
+- [Site Officiel BGE]()
+- [Reddit BGE](https://www.reddit.com/r/biggreenegg)
 
 ## Ma configuration idéale
 
@@ -41,8 +32,8 @@ draft: true
 
 ## Table BGE DIY
 
-[Inspirations](https://nakedwhiz.com/TableGallery/tables.htm)
-https://imgur.com/7FtPOkR
+- [Inspirations](https://nakedwhiz.com/TableGallery/tables.htm)
+- https://imgur.com/7FtPOkR
 
 ## Plans
 

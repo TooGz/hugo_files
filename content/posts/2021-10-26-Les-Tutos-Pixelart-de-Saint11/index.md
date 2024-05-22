@@ -9,12 +9,8 @@ cover:
     image: img/cover.png
     alt: "<text>"
     caption: "<text>"
-    relative: false # To use relative path for cover image, used in hugo Page-bundles
-params:
-    cover:
-        linkFullImages: true
-    ShowReadingTime: true
-    ShowPostNavLinks: true
+    
+
 
 ShowToc: true
 ---

@@ -119,7 +119,7 @@ params:
     #     apple_touch_icon: "<link / abs url>"
     #     safari_pinned_tab: "<link / abs url>"
 
-    # cover:
+    # 
     #     hidden: true # hide everywhere but not in structured data
     #     hiddenInList: false # hide on list pages and home
     #     hiddenInSingle: true # hide on single page

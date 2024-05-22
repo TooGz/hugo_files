@@ -9,15 +9,11 @@ categories: ["Gaming"]
 series: ["Borne d'Arcade DIY"]
 
 cover:
-    image: img/cover.webp
+    image: "img/cover.webp"
     alt: "Esquisse technique au crayon sur papier, représentant la conception d'une borne d'arcade de luxe à deux joueurs, de 32 pouces. [dall-e]"
     caption: "Esquisse au crayon sur papier, représentant la conception d'une borne d'arcade à deux joueurs"
-    relative: false # To use relative path for cover image, used in hugo Page-bundles
-params:
-    cover:
-        linkFullImages: true
-    ShowReadingTime: true
-    ShowPostNavLinks: true
+    
+
 
 ShowToc: true
 draft: true

@@ -6,15 +6,11 @@ date: 2021-11-18T09:56:25+01:00
 author: "TooGz"
 tags: ["tuto", "PGP", "mail"]
 cover:
-    image: img/cover.webp
+    image: "img/cover.webp"
     alt: "<text>"
     caption: "<text>"
-    relative: false # To use relative path for cover image, used in hugo Page-bundles
-params:
-    cover:
-        linkFullImages: true
-    ShowReadingTime: true
-    ShowPostNavLinks: true
+    
+
 
 ShowToc: true
 ---

@@ -7,12 +7,8 @@ tags:
 cover:
     image: "img/cover.jpg"
     alt: "Subcool Super Soil Mix"
-    relative: false # To use relative path for cover image, used in hugo Page-bundles
-params:
-    cover:
-        linkFullImages: true
-    ShowReadingTime: true
-    ShowPostNavLinks: true
+    
+
 ShowToc: false
 ShowBreadCrumbs: false
 ---

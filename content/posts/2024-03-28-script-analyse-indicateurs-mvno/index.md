@@ -6,15 +6,11 @@ date: 2024-03-28T09:59:59+01:00
 author: "TooGz"
 tags: ["Scripting", "bash"]
 cover:
-    image: img/cover.webp
+    image: "img/cover.webp"
     alt: "<text>"
     caption: "<text>"
-    relative: false # To use relative path for cover image, used in hugo Page-bundles
-params:
-    cover:
-        linkFullImages: true
-    ShowReadingTime: true
-    ShowPostNavLinks: true
+    
+
 
 ShowToc: true
 draft: false

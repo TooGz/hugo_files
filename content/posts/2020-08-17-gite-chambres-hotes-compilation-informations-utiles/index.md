@@ -10,7 +10,7 @@ cover:
     image: "/img/posts/2020-08-17-gite-chambres-hotes-compilation-informations-utiles/cover.jpg"
     alt: "<alt text>"
     caption: "<text>"
-    relative: false # To use relative path for cover image, used in hugo Page-bundles
+    
 params:
     cover:
         linkFullImages: true
