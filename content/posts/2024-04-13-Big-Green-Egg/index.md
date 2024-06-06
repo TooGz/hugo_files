@@ -21,14 +21,12 @@ draft: true
 **Big Green Egg**
 
 * Big Green Egg Large
-* Panier a charbon [Ref: 122674]
+* Panier a charbon [Kick Ash Basket](https://kickashbasket.com/collections/large-18-grate)
 * Racloir à Cendres [Ref: 119506]
 * ConveGGtor [Ref: 401021]
-* Panier conveGGtor [Ref: 120724]
-* eGGspander [Ref: 120762]
-* Duo de Grilles Multiniveau [Ref: 120755]
+* CGS PSWoo [[Ceramic Grill Store](https://ceramicgrillstore.com/products/large-egg-conveggtor-expander-basket-cgs-pswoo?variant=32137439084602)]
 * Pierre de Cuisson Plate [Ref: 401014]
-* Grille Fonte [Ref: 122957]
+* Grille Fonte  [Ceramic Grill Store](https://ceramicgrillstore.com/products/18-cast-iron-grid-big-green-egg)
 
 ## Table BGE DIY
 
@@ -47,6 +45,8 @@ draft: true
 * {{< ico bootstrap filetype-pdf >}} [BGE Table by Kreg](files/big-green-egg-grill-cabinet.pdf)
 
 [Videos, Plan Sketchup, Tuto](https://www.dogwoodnation.com/home/big-green-egg-table)
+
+## Recettes !
 
 
 
