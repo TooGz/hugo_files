@@ -51,14 +51,16 @@ params:
         buttons:
           - name: Posts
             url: /posts
-          - name: Réalisations
-            url: /realisations
-          - name: Rénovation
-            url: /renovation
-          - name: Autosuffisance
-            url: /autosuffisance
-          - name: Jardin
-            url: /jardin
+          # - name: Réalisations
+          #   url: /realisations
+          - name: Big Green Egg
+            url: /Big-Green-Egg
+          # - name: Rénovation
+          #   url: /renovation
+          # - name: Autosuffisance
+          #   url: /autosuffisance
+          # - name: Jardin
+          #   url: /jardin
 
     socialIcons: # optional
       - name: "instagram"
