@@ -1,10 +1,10 @@
 ---
-title: "Big Green Egg"
-description: "Tout ce que j'ai pu glaner comme infos sur le patron des Kamado, le Big Green Egg"
-slug: "Big-Green-Egg"
+title: "Big Green Egg: Recettes à tester"
+description: "Tour du Web à la recherche de bonnes recettes à essayer sur mon Kamado"
+slug: "Recettes-Big-Green-Egg-a-Tester"
 date: 2024-04-13T18:43:02+02:00
 author: "TooGz"
-tags: ["Big Green Egg", "DIY"]
+tags: ["Big Green Egg", "Recettes"]
 cover:
     image: "img/cover.webp"
 ShowToc: true
