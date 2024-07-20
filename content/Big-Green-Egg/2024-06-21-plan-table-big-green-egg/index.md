@@ -137,3 +137,4 @@ draft: true
 - **Couleurs** : Utiliser des couleurs sobres et professionnelles.
 - **Mise en Page** : Marges standard, en-têtes et pieds de page cohérents.
 - **Fichiers** : Plan en format PDF pour une présentation uniforme.
+
