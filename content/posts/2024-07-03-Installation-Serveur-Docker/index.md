@@ -51,6 +51,10 @@ draft: true
 10. [Annexes](#10-annexes)
 
 
+
+
+
+
 # 1. Introduction
 
 Afin de consigner toutes les étapes nécessaires et les informations importantes pour l'installation d'un serveur Docker sous Ubuntu 24.04, j'ai décidé de rédiger cet article. Ce guide me servira de référence personnelle, facilitant ainsi la gestion future et la maitenance de mon système et de mes environnements Docker. En documentant le plus possible chaque étape, de l'installation initiale à la configuration avancée, je maximise les chances de ne rien oublier et de disposer d'une ressource la plus fiable et complète possible. Si vous suivez ce guide, j'espère qu'il vous sera également utile et qu'il vous permettra de naviguer facilement dans le processus d'installation de Docker sur votre système Ubuntu.
