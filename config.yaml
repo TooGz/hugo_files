@@ -40,6 +40,8 @@ outputs:
         - JSON
 
 params:
+
+    ShowSearch: true
     profileMode:
         enabled: true
         title: TooGz # optional
@@ -55,6 +57,8 @@ params:
           #   url: /realisations
           - name: Big Green Egg
             url: /Big-Green-Egg
+          - name: TribuMaline - BTS
+            url: /TribuMaline
           # - name: Rénovation
           #   url: /renovation
           # - name: Autosuffisance
@@ -67,22 +71,21 @@ params:
         url: "https://www.instagram.com/toogz/"
       # - name: "Linkedin"
       #   url: "https://www.linkedin.com/in/guillaume-boivin-5118a93a/"
-      # - name: Youtube
-      #   url: https://www.youtube.com/channel/UCxN3Q5xyApglWp-COuydjxw
+      - name: Youtube
+        url: https://www.youtube.com/channel/UCxN3Q5xyApglWp-COuydjxw
 
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "Le site web de la boivin Family"
-    author: TooGz
-    # author: ["Me", "You"] # multiple authors
+    author: TooGz # author: ["Me", "You"] # multiple authors
 
     defaultTheme: dark #dark|light|auto
-    # disableThemeToggle: true
-    ShowShareButtons: false
+    disableThemeToggle: true
+    ShowShareButtons: true
     ShowReadingTime: true
     # disableSpecial1stPost: true
     displayFullLangName: false
     ShowPostNavLinks: true
-    ShowBreadCrumbs: false
+    ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowToc: false
     # comments: false
