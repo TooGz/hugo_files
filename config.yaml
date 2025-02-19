@@ -56,9 +56,9 @@ params:
           # - name: Réalisations
           #   url: /realisations
           - name: Big Green Egg
-            url: /Big-Green-Egg
+            url: big-green-egg
           - name: TribuMaline - BTS
-            url: /TribuMaline
+            url: tribumaline
           # - name: Rénovation
           #   url: /renovation
           # - name: Autosuffisance
