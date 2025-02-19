@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Astuces on TooGz.fr</title>
+    <link>http://localhost:1313/tags/astuces/</link>
+    <description>Recent content in Astuces on TooGz.fr</description>
+    <generator>Hugo -- 0.124.1</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 17 Feb 2022 10:34:34 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/astuces/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bonnes Paratiques: Partager ses créations sur Instagram</title>
+      <link>http://localhost:1313/posts/2022-02-17-partager-ses-creations-sur-instagram/</link>
+      <pubDate>Thu, 17 Feb 2022 10:34:34 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2022-02-17-partager-ses-creations-sur-instagram/</guid>
+      <description>&amp;lt;text&amp;gt;</description>
+    </item>
+  </channel>
+</rss>

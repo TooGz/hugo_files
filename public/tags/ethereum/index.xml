@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ethereum on TooGz.fr</title>
+    <link>http://localhost:1313/tags/ethereum/</link>
+    <description>Recent content in Ethereum on TooGz.fr</description>
+    <generator>Hugo -- 0.124.1</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 28 Oct 2021 14:27:28 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ethereum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cryptomonnaies</title>
+      <link>http://localhost:1313/posts/cryptomonnaies/</link>
+      <pubDate>Thu, 28 Oct 2021 14:27:28 +0200</pubDate>
+      <guid>http://localhost:1313/posts/cryptomonnaies/</guid>
+      <description>&amp;lt;text&amp;gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Domotique on TooGz.fr</title>
+    <link>http://localhost:1313/tags/domotique/</link>
+    <description>Recent content in Domotique on TooGz.fr</description>
+    <generator>Hugo -- 0.124.1</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 18 Oct 2021 09:40:02 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/domotique/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation &amp; Configuration Home Assistant</title>
+      <link>http://localhost:1313/posts/2021-10-18-installation-et-configuration-homeassistant/</link>
+      <pubDate>Mon, 18 Oct 2021 09:40:02 +0200</pubDate>
+      <guid>http://localhost:1313/posts/2021-10-18-installation-et-configuration-homeassistant/</guid>
+      <description>Dans le but de monitorer et de domotiser diverses choses dans ma maison, nous allons voir comment monter une instance de Home Assistant sur un environnement Docker</description>
+    </item>
+  </channel>
+</rss>

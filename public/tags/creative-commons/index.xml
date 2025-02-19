@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Creative Commons on TooGz.fr</title>
+    <link>http://localhost:1313/tags/creative-commons/</link>
+    <description>Recent content in Creative Commons on TooGz.fr</description>
+    <generator>Hugo -- 0.124.1</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/tags/creative-commons/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comprendre les 6 licences Creative Commons pour mieux protéger vos photos</title>
+      <link>http://localhost:1313/posts/2012-12-03-comprendre-les-6-licences-creative-commons-pour-mieux-proteger-vos-photos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2012-12-03-comprendre-les-6-licences-creative-commons-pour-mieux-proteger-vos-photos/</guid>
+      <description>Depuis peu, le site de partage de photo 500px est passé à la Creative Commons, ce qui offre une plus grande souplesse dans la gestion des droits de nos images. C’est pourquoi je me suis penché sur cette licence dans cet article.
+Quatres options de base pour protéger vos oeuvres Attribution &amp;lt;img class=&amp;quot;alignleft size-full wp-image-1309&amp;quot; title=&amp;quot;by6&amp;quot; src=&amp;quot;http://freakyfresh.fr/wp/wp-content/uploads/2012/12/by6.gif&amp;quot; alt=&amp;quot;&amp;quot; width=&amp;quot;40&amp;quot; height=&amp;quot;41&amp;quot; /&amp;gt;Toutes les licences Creative Commons obligent ceux qui utilisent vos oeuvres à vous créditer de la manière dont vous le demandez, sans pour autant suggérer que vous approuvez leur utilisation ou leur donner votre aval ou votre soutien.</description>
+    </item>
+  </channel>
+</rss>

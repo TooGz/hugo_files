@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pixelart on TooGz.fr</title>
+    <link>http://localhost:1313/tags/pixelart/</link>
+    <description>Recent content in Pixelart on TooGz.fr</description>
+    <generator>Hugo -- 0.124.1</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 26 Oct 2021 10:37:38 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/pixelart/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Les Tutos Pixelart de Saint11</title>
+      <link>http://localhost:1313/posts/les-tutos-pixelart-de-saint11/</link>
+      <pubDate>Tue, 26 Oct 2021 10:37:38 +0200</pubDate>
+      <guid>http://localhost:1313/posts/les-tutos-pixelart-de-saint11/</guid>
+      <description>Retrouvez tout les tuto de Saint11 sur ses nombreuses techniques.</description>
+    </item>
+  </channel>
+</rss>

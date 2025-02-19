@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Wiiflow on TooGz.fr</title>
+    <link>http://localhost:1313/tags/wiiflow/</link>
+    <description>Recent content in Wiiflow on TooGz.fr</description>
+    <generator>Hugo -- 0.124.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/wiiflow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wiiflow - Installation sur Wii &amp; Wii U</title>
+      <link>http://localhost:1313/posts/2021-08-15-wiiflow-installation-sur-wii-wiiu/</link>
+      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/2021-08-15-wiiflow-installation-sur-wii-wiiu/</guid>
+      <description>https://sites.google.com/site/wiiflowiki4/home
+THREAD GBATEMP lien du thread</description>
+    </item>
+  </channel>
+</rss>

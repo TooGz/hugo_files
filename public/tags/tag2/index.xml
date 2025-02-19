@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tag2 on TooGz.fr</title>
+    <link>http://localhost:1313/tags/tag2/</link>
+    <description>Recent content in Tag2 on TooGz.fr</description>
+    <generator>Hugo -- 0.124.1</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 03 Aug 2023 09:46:37 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Création du site web pour La Joystickerie</title>
+      <link>http://localhost:1313/posts/2023-08-03-creation-site-web-arcade/</link>
+      <pubDate>Thu, 03 Aug 2023 09:46:37 +0200</pubDate>
+      <guid>http://localhost:1313/posts/2023-08-03-creation-site-web-arcade/</guid>
+      <description>Notes diverses dans le but de créer un site web pour montrer mes créations.</description>
+    </item>
+    <item>
+      <title>Hifi Vintage</title>
+      <link>http://localhost:1313/posts/hifi-vintage/</link>
+      <pubDate>Wed, 08 Dec 2021 21:23:35 +0100</pubDate>
+      <guid>http://localhost:1313/posts/hifi-vintage/</guid>
+      <description>&amp;lt;text&amp;gt;</description>
+    </item>
+    <item>
+      <title>Gestion Financiere</title>
+      <link>http://localhost:1313/posts/gestion-financiere/</link>
+      <pubDate>Wed, 13 Oct 2021 15:32:56 +0200</pubDate>
+      <guid>http://localhost:1313/posts/gestion-financiere/</guid>
+      <description>&amp;lt;text&amp;gt;</description>
+    </item>
+    <item>
+      <title>Autosuffisance</title>
+      <link>http://localhost:1313/posts/autosuffisance/</link>
+      <pubDate>Wed, 13 Oct 2021 15:32:40 +0200</pubDate>
+      <guid>http://localhost:1313/posts/autosuffisance/</guid>
+      <description>&amp;lt;text&amp;gt;</description>
+    </item>
+    <item>
+      <title>Restauration Custom Velo De Ville Pliant LEULEU</title>
+      <link>http://localhost:1313/posts/restauration-custom-velo-de-ville-pliant-leuleu/</link>
+      <pubDate>Wed, 13 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/restauration-custom-velo-de-ville-pliant-leuleu/</guid>
+      <description>&amp;lt;text&amp;gt;</description>
+    </item>
+  </channel>
+</rss>

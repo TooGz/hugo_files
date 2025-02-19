@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DIY on TooGz.fr</title>
+    <link>http://localhost:1313/tags/diy/</link>
+    <description>Recent content in DIY on TooGz.fr</description>
+    <generator>Hugo -- 0.124.1</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 12 Apr 2024 11:27:49 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/diy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>iPod Classic 7th Gen Upgrades</title>
+      <link>http://localhost:1313/posts/2024-04-12-ipod-classic-7th-gen-upgrades/</link>
+      <pubDate>Fri, 12 Apr 2024 11:27:49 +0200</pubDate>
+      <guid>http://localhost:1313/posts/2024-04-12-ipod-classic-7th-gen-upgrades/</guid>
+      <description>Mise à jour de mon iPod Classic 160GB (SD Cards, Batterie 3800 mAh)</description>
+    </item>
+    <item>
+      <title>Borne Arcade: Planification de la conception</title>
+      <link>http://localhost:1313/posts/borne-arcade-planification-conception/</link>
+      <pubDate>Fri, 29 Mar 2024 17:23:52 +0100</pubDate>
+      <guid>http://localhost:1313/posts/borne-arcade-planification-conception/</guid>
+      <description>&amp;lt;text&amp;gt;</description>
+    </item>
+    <item>
+      <title>Construire une borne d&#39;arcade 2 joueurs De A à Z</title>
+      <link>http://localhost:1313/posts/2024-03-29-construction-borne-arcade-upright-de-a-a-z/</link>
+      <pubDate>Fri, 29 Mar 2024 09:27:04 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2024-03-29-construction-borne-arcade-upright-de-a-a-z/</guid>
+      <description>Planification approfondie de la création d&amp;#39;une borne d&amp;#39;arcade upright</description>
+    </item>
+    <item>
+      <title>Bluetooth DIY Boombox</title>
+      <link>http://localhost:1313/posts/2021-11-02-bluetooth-diy-boombox/</link>
+      <pubDate>Tue, 02 Nov 2021 14:17:20 +0100</pubDate>
+      <guid>http://localhost:1313/posts/2021-11-02-bluetooth-diy-boombox/</guid>
+      <description>&amp;lt;text&amp;gt;</description>
+    </item>
+    <item>
+      <title>Plan de la table pour Big Green Egg Large</title>
+      <link>http://localhost:1313/big-green-egg/plan-table-bge-large/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/big-green-egg/plan-table-bge-large/</guid>
+      <description>Infos pour la création d&amp;#39;un PDF détaillant la fabrication et l&amp;#39;assemblage du meuble</description>
+    </item>
+  </channel>
+</rss>

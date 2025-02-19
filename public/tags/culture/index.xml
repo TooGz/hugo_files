@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Culture on TooGz.fr</title>
+    <link>http://localhost:1313/tags/culture/</link>
+    <description>Recent content in Culture on TooGz.fr</description>
+    <generator>Hugo -- 0.124.1</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 11 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/culture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recette Subcool Super Soil</title>
+      <link>http://localhost:1313/posts/subcool-super-soil-recette/</link>
+      <pubDate>Mon, 11 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/subcool-super-soil-recette/</guid>
+      <description>Le légendaire &amp;#34;super sol&amp;#34; de Mr Subcool</description>
+    </item>
+  </channel>
+</rss>

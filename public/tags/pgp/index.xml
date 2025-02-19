@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>PGP on TooGz.fr</title>
+    <link>http://localhost:1313/tags/pgp/</link>
+    <description>Recent content in PGP on TooGz.fr</description>
+    <generator>Hugo -- 0.124.1</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 18 Nov 2021 09:56:25 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/pgp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Configurer PGP pour chiffrer ses mails</title>
+      <link>http://localhost:1313/posts/configurer-pgp-pour-chiffrer-ses-mails/</link>
+      <pubDate>Thu, 18 Nov 2021 09:56:25 +0100</pubDate>
+      <guid>http://localhost:1313/posts/configurer-pgp-pour-chiffrer-ses-mails/</guid>
+      <description>&amp;lt;text&amp;gt;</description>
+    </item>
+  </channel>
+</rss>

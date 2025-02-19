@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bœuf on TooGz.fr</title>
+    <link>http://localhost:1313/tags/b%C5%93uf/</link>
+    <description>Recent content in Bœuf on TooGz.fr</description>
+    <generator>Hugo -- 0.124.1</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 12 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/b%C5%93uf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Côte de bœuf fumée</title>
+      <link>http://localhost:1313/big-green-egg/recettes/cote-de-boeuf-fumee/</link>
+      <pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/big-green-egg/recettes/cote-de-boeuf-fumee/</guid>
+      <description>Ingrédients : 1 côte de bœuf Sel, poivre Bois de fumage (chêne, hickory) Huile d&amp;rsquo;olive Préparation : Assaisonner la viande et la laisser reposer. Préchauffer le Big Green Egg à 110°C en chaleur indirecte. Ajouter le bois de fumage et placer la viande sur la grille. Fumer jusqu’à 52°C à cœur, puis saisir rapidement à haute température. Laisser reposer avant de déguster. </description>
+    </item>
+  </channel>
+</rss>
