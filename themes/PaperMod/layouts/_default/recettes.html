@@ -1,0 +1,29 @@
+{{- define "main" }}
+
+    <header>
+        <h1>Recettes Big Green Egg</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Recettes Testées ✅</h2>
+            <ul>
+                {{ range where .Pages "Params.status" "testé" }}
+                <li>
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a> - {{ .Params.rating }}/5
+                </li>
+                {{ end }}
+            </ul>
+        </section>
+        <section>
+            <h2>Recettes à Tester 🔥</h2>
+            <ul>
+                {{ range where .Pages "Params.status" "à tester" }}
+                <li>
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </section>
+    </main>
+
+{{- end }}{{- /* end main */ -}}
