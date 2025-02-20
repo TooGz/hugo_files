@@ -15,7 +15,7 @@ cover:
 
 
 ShowToc: true
-draft: true
+draft: false
 ---
 
 Me voila à l'une des étapes les plus importantes (LA plus importante ?), la planification du projet.

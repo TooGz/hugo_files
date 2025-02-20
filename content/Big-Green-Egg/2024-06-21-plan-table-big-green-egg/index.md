@@ -8,7 +8,7 @@ tags: ["Big Green Egg", "DIY", "Woodworking"]
 cover:
     image: "img/cover.webp"
 ShowToc: true
-draft: true
+draft: false
 ---
 
 # 1. Page de Couverture

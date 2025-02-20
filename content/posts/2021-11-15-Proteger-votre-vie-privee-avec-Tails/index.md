@@ -13,7 +13,7 @@ cover:
 
 
 ShowToc: true
-draft: true
+draft: false
 ---
 
 ## Utiliser un ordinateur dédié pour les activités anonymes

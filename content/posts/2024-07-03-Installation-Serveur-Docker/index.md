@@ -11,49 +11,8 @@ cover:
     caption: "<text>"
 
 ShowToc: true
-draft: true
+draft: false
 ---
-
-
-# Table des Matières
-1. [Introduction](#1-introduction)
-2. [Pré-requis](#2-pré-requis)
-3. [Installation d'Ubuntu 24.04 Server](#3-installation-dubuntu-2404-server)
-   - [Téléchargement de l'image ISO](#téléchargement-de-limage-iso)
-   - [Création du média d'installation](#création-du-média-dinstallation)
-   - [Installation de la distribution](#installation-de-la-distribution)
-4. [Configuration Initiale du Serveur](#4-configuration-initiale-du-serveur)
-   - [Connexion au serveur](#connexion-au-serveur)
-   - [Mise à jour du système](#mise-à-jour-du-système)
-   - [Configuration du réseau](#configuration-du-réseau)
-   - [Création d'utilisateurs](#création-dutilisateurs)
-5. [Sécurisation du Serveur](#5-sécurisation-du-serveur)
-   - [Configuration du pare-feu](#configuration-du-pare-feu)
-   - [Configuration de SSH](#configuration-de-ssh)
-   - [Installation et configuration de fail2ban](#installation-et-configuration-de-fail2ban)
-   - [Mise en place de sauvegardes](#mise-en-place-de-sauvegardes)
-6. [Installation et Configuration des Logiciels](#6-installation-et-configuration-des-logiciels)
-   - [Docker](#docker)
-     - [Installation de Docker](#installation-de-docker)
-     - [Vérification de l'installation de Docker](#vérification-de-linstallation-de-docker)
-   - [Portainer](#portainer)
-     - [Installation de Portainer](#installation-de-portainer)
-     - [Accéder à l'interface Portainer](#accéder-à-linterface-portainer)
-7. [Surveillance et Maintenance](#7-surveillance-et-maintenance)
-   - [Installation des outils de surveillance](#installation-des-outils-de-surveillance)
-     - [Installation de cAdvisor](#installation-de-cadvisor)
-     - [Installation de Netdata](#installation-de-netdata)
-   - [Configuration des alertes](#configuration-des-alertes)
-   - [Automatisation des tâches de maintenance](#automatisation-des-tâches-de-maintenance)
-8. [Dépannage](#8-dépannage)
-   - [Problèmes courants et solutions](#problèmes-courants-et-solutions)
-9. [Conclusion](#9-conclusion)
-10. [Annexes](#10-annexes)
-
-
-
-
-
 
 # 1. Introduction
 

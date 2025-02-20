@@ -72,8 +72,8 @@
   "keywords": [
     "Docker", "Adminsys", "Ubuntu", "Devops", "Portainer", "zsh", "Linux"
   ],
-  "articleBody": "Table des Matières Introduction Pré-requis Installation d’Ubuntu 24.04 Server Téléchargement de l’image ISO Création du média d’installation Installation de la distribution Configuration Initiale du Serveur Connexion au serveur Mise à jour du système Configuration du réseau Création d’utilisateurs Sécurisation du Serveur Configuration du pare-feu Configuration de SSH Installation et configuration de fail2ban Mise en place de sauvegardes Installation et Configuration des Logiciels Docker Installation de Docker Vérification de l’installation de Docker Portainer Installation de Portainer Accéder à l’interface Portainer Surveillance et Maintenance Installation des outils de surveillance Installation de cAdvisor Installation de Netdata Configuration des alertes Automatisation des tâches de maintenance Dépannage Problèmes courants et solutions Conclusion Annexes 1. Introduction Afin de consigner toutes les étapes nécessaires et les informations importantes pour l’installation d’un serveur Docker sous Ubuntu 24.04, j’ai décidé de rédiger cet article. Ce guide me servira de référence personnelle, facilitant ainsi la gestion future et la maitenance de mon système et de mes environnements Docker. En documentant le plus possible chaque étape, de l’installation initiale à la configuration avancée, je maximise les chances de ne rien oublier et de disposer d’une ressource la plus fiable et complète possible. Si vous suivez ce guide, j’espère qu’il vous sera également utile et qu’il vous permettra de naviguer facilement dans le processus d’installation de Docker sur votre système Ubuntu.\n2. Pré-requis Avant de commencer, assurez-vous d’avoir :\nUn ordinateur ou un serveur dédié. Une connexion internet stable. Un accès physique ou une console d’administration à distance. Dans mon cas, cela sera un “vieux” portable Dell utilisé ecran fermé. Je part sur un Core i7 avec 16GB de ram et 256GB en SSD. Avec cette machine je devrais etre tranquille un moment.\n3. Installation d’Ubuntu 24.04 Server 3.1 Téléchargement de l’image ISO Téléchargez l’image ISO d’Ubuntu 24.04 Server depuis le site officiel d’Ubuntu.\n3.2 Création du média d’installation Créez un média d’installation (USB/CD) avec un outil comme Rufus (Windows) ou Etcher (Linux/macOS).\n3.3 Installation de la distribution Insérez le média d’installation dans votre serveur et démarrez-le. Sélectionnez “Install Ubuntu Server” dans le menu de démarrage. Suivez les instructions à l’écran pour installer Ubuntu 24.04 sur votre machine : Sélectionnez votre langue. Configurez le clavier. Configurez le réseau. Configurez le stockage et partitionnez votre disque selon vos besoins. Créez un utilisateur et définissez un mot de passe. Installez les logiciels supplémentaires nécessaires. Redémarrez le serveur une fois l’installation terminée.\n4. Configuration Initiale du Serveur 4.1 Connexion et mises à jour Se connecter en SSH ssh username@server_ip Mise à jour post install sudo apt update \u0026\u0026 sudo apt upgrade \u0026\u0026 sudo apt autoremove \u0026\u0026 sudo apt autoclean 6. Installation et configuration des applications 6.1 Changement de Shell [Oh my ZSH !] Installation zsh\nsudo apt install zsh Installataion oh-my-zsh\nsh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\" Thème Powerlevel10k\nCloner le repo git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k Spécifier le thème ZSH_THEME=\"powerlevel10k/powerlevel10kdans ~/.zshrc Installation de Zsh Syntax Highlighting\nCloner le repo git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting Ajouter le plugin dans ~/.zshrc plugins=( [plugins...] zsh-syntax-highlighting) Installation de Zsh Autosuggestions\nCloner le repo git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions Ajouter le plugin dans ~/.zshrc plugins=( # other plugins... zsh-autosuggestions ) Recharger le shell pour prendre en compte les modifications\nzsh 6.2 Installation de Docker CE Ajout des repository Docker # Add Docker's official GPG key: sudo apt-get update sudo apt-get install ca-certificates curl sudo install -m 0755 -d /etc/apt/keyrings sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc sudo chmod a+r /etc/apt/keyrings/docker.asc # Add the repository to Apt sources: echo \\ \"deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \\ $(. /etc/os-release \u0026\u0026 echo \"$UBUNTU_CODENAME\") stable\" | \\ sudo tee /etc/apt/sources.list.d/docker.list \u003e /dev/null sudo apt-get update Installation du paquet Docker sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin Exécuter l’image Docker hello-world pour valider le bon fonctionnement. sudo docker run hello-world Cette commande télécharge une image de test est l’éxécute en tant que conteneur. Ce conteneur affiche une message et se termine.\n6.3 Installation de Portainer Portainer est un outil pratique pour gérer vos conteneurs Docker via une interface graphique. Il vous permet de déployer, surveiller et administrer facilement vos conteneurs, sans avoir passer par la ligne de commande. Avec Portainer, vous pouvez voir vos stacks, volumes, réseaux et images Docker en un coup d’œil, tout en profitant de fonctionnalités avancées comme la gestion des utilisateurs et la surveillance en temps réel.\nCréation du volume que Portainer utilisera pour y stocker sa BDD\ndocker volume create portainer_data Volume accessible dans /var/lib/docker/volumes\nTélécharger et installer le conteneur Portainer\ndocker run -d -p 8000:8000 -p 9443:9443 --name bvn_portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest ",
-  "wordCount" : "754",
+  "articleBody": "1. Introduction Afin de consigner toutes les étapes nécessaires et les informations importantes pour l’installation d’un serveur Docker sous Ubuntu 24.04, j’ai décidé de rédiger cet article. Ce guide me servira de référence personnelle, facilitant ainsi la gestion future et la maitenance de mon système et de mes environnements Docker. En documentant le plus possible chaque étape, de l’installation initiale à la configuration avancée, je maximise les chances de ne rien oublier et de disposer d’une ressource la plus fiable et complète possible. Si vous suivez ce guide, j’espère qu’il vous sera également utile et qu’il vous permettra de naviguer facilement dans le processus d’installation de Docker sur votre système Ubuntu.\n2. Pré-requis Avant de commencer, assurez-vous d’avoir :\nUn ordinateur ou un serveur dédié. Une connexion internet stable. Un accès physique ou une console d’administration à distance. Dans mon cas, cela sera un “vieux” portable Dell utilisé ecran fermé. Je part sur un Core i7 avec 16GB de ram et 256GB en SSD. Avec cette machine je devrais etre tranquille un moment.\n3. Installation d’Ubuntu 24.04 Server 3.1 Téléchargement de l’image ISO Téléchargez l’image ISO d’Ubuntu 24.04 Server depuis le site officiel d’Ubuntu.\n3.2 Création du média d’installation Créez un média d’installation (USB/CD) avec un outil comme Rufus (Windows) ou Etcher (Linux/macOS).\n3.3 Installation de la distribution Insérez le média d’installation dans votre serveur et démarrez-le. Sélectionnez “Install Ubuntu Server” dans le menu de démarrage. Suivez les instructions à l’écran pour installer Ubuntu 24.04 sur votre machine : Sélectionnez votre langue. Configurez le clavier. Configurez le réseau. Configurez le stockage et partitionnez votre disque selon vos besoins. Créez un utilisateur et définissez un mot de passe. Installez les logiciels supplémentaires nécessaires. Redémarrez le serveur une fois l’installation terminée.\n4. Configuration Initiale du Serveur 4.1 Connexion et mises à jour Se connecter en SSH ssh username@server_ip Mise à jour post install sudo apt update \u0026\u0026 sudo apt upgrade \u0026\u0026 sudo apt autoremove \u0026\u0026 sudo apt autoclean 6. Installation et configuration des applications 6.1 Changement de Shell [Oh my ZSH !] Installation zsh\nsudo apt install zsh Installataion oh-my-zsh\nsh -c \"$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)\" Thème Powerlevel10k\nCloner le repo git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k Spécifier le thème ZSH_THEME=\"powerlevel10k/powerlevel10kdans ~/.zshrc Installation de Zsh Syntax Highlighting\nCloner le repo git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting Ajouter le plugin dans ~/.zshrc plugins=( [plugins...] zsh-syntax-highlighting) Installation de Zsh Autosuggestions\nCloner le repo git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions Ajouter le plugin dans ~/.zshrc plugins=( # other plugins... zsh-autosuggestions ) Recharger le shell pour prendre en compte les modifications\nzsh 6.2 Installation de Docker CE Ajout des repository Docker # Add Docker's official GPG key: sudo apt-get update sudo apt-get install ca-certificates curl sudo install -m 0755 -d /etc/apt/keyrings sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc sudo chmod a+r /etc/apt/keyrings/docker.asc # Add the repository to Apt sources: echo \\ \"deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \\ $(. /etc/os-release \u0026\u0026 echo \"$UBUNTU_CODENAME\") stable\" | \\ sudo tee /etc/apt/sources.list.d/docker.list \u003e /dev/null sudo apt-get update Installation du paquet Docker sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin Exécuter l’image Docker hello-world pour valider le bon fonctionnement. sudo docker run hello-world Cette commande télécharge une image de test est l’éxécute en tant que conteneur. Ce conteneur affiche une message et se termine.\n6.3 Installation de Portainer Portainer est un outil pratique pour gérer vos conteneurs Docker via une interface graphique. Il vous permet de déployer, surveiller et administrer facilement vos conteneurs, sans avoir passer par la ligne de commande. Avec Portainer, vous pouvez voir vos stacks, volumes, réseaux et images Docker en un coup d’œil, tout en profitant de fonctionnalités avancées comme la gestion des utilisateurs et la surveillance en temps réel.\nCréation du volume que Portainer utilisera pour y stocker sa BDD\ndocker volume create portainer_data Volume accessible dans /var/lib/docker/volumes\nTélécharger et installer le conteneur Portainer\ndocker run -d -p 8000:8000 -p 9443:9443 --name bvn_portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest ",
+  "wordCount" : "646",
   "inLanguage": "en",
   "image":"http://localhost:1313/img/cover.webp","datePublished": "2024-07-03T09:11:28+02:00",
   "dateModified": "2024-07-03T09:11:28+02:00",
@@ -142,12 +142,6 @@
     <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       Installation d&#39;un serveur Docker sous Ubuntu Server 24.04
-      <span class="entry-hint" title="Draft">
-        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
-          <path
-            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
-        </svg>
-      </span>
     </h1>
     <div class="post-description">
       Découvrez notre guide complet pour l&#39;installation et la configuration de Docker CE sur Ubuntu 24.04. Suivez chaque étape détaillée, de l&#39;installation d&#39;Ubuntu Server à la configuration avancée de Docker et Portainer, pour optimiser la gestion et la maintenance de vos environnements Docker. Parfait pour les débutants et les administrateurs expérimentés.
@@ -166,8 +160,6 @@
         </summary>
 
         <div class="inner"><ul>
-                <li>
-                    <a href="#table-des-mati%c3%a8res" aria-label="Table des Matières">Table des Matières</a></li>
                 <li>
                     <a href="#1-introduction" aria-label="1. Introduction">1. Introduction</a></li>
                 <li>
@@ -205,70 +197,7 @@
     </details>
 </div>
 
-  <div class="post-content"><h1 id="table-des-matières">Table des Matières<a hidden class="anchor" aria-hidden="true" href="#table-des-matières">#</a></h1>
-<ol>
-<li><a href="#1-introduction">Introduction</a></li>
-<li><a href="#2-pr%C3%A9-requis">Pré-requis</a></li>
-<li><a href="#3-installation-dubuntu-2404-server">Installation d&rsquo;Ubuntu 24.04 Server</a>
-<ul>
-<li><a href="#t%C3%A9l%C3%A9chargement-de-limage-iso">Téléchargement de l&rsquo;image ISO</a></li>
-<li><a href="#cr%C3%A9ation-du-m%C3%A9dia-dinstallation">Création du média d&rsquo;installation</a></li>
-<li><a href="#installation-de-la-distribution">Installation de la distribution</a></li>
-</ul>
-</li>
-<li><a href="#4-configuration-initiale-du-serveur">Configuration Initiale du Serveur</a>
-<ul>
-<li><a href="#connexion-au-serveur">Connexion au serveur</a></li>
-<li><a href="#mise-%C3%A0-jour-du-syst%C3%A8me">Mise à jour du système</a></li>
-<li><a href="#configuration-du-r%C3%A9seau">Configuration du réseau</a></li>
-<li><a href="#cr%C3%A9ation-dutilisateurs">Création d&rsquo;utilisateurs</a></li>
-</ul>
-</li>
-<li><a href="#5-s%C3%A9curisation-du-serveur">Sécurisation du Serveur</a>
-<ul>
-<li><a href="#configuration-du-pare-feu">Configuration du pare-feu</a></li>
-<li><a href="#configuration-de-ssh">Configuration de SSH</a></li>
-<li><a href="#installation-et-configuration-de-fail2ban">Installation et configuration de fail2ban</a></li>
-<li><a href="#mise-en-place-de-sauvegardes">Mise en place de sauvegardes</a></li>
-</ul>
-</li>
-<li><a href="#6-installation-et-configuration-des-logiciels">Installation et Configuration des Logiciels</a>
-<ul>
-<li><a href="#docker">Docker</a>
-<ul>
-<li><a href="#installation-de-docker">Installation de Docker</a></li>
-<li><a href="#v%C3%A9rification-de-linstallation-de-docker">Vérification de l&rsquo;installation de Docker</a></li>
-</ul>
-</li>
-<li><a href="#portainer">Portainer</a>
-<ul>
-<li><a href="#installation-de-portainer">Installation de Portainer</a></li>
-<li><a href="#acc%C3%A9der-%C3%A0-linterface-portainer">Accéder à l&rsquo;interface Portainer</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#7-surveillance-et-maintenance">Surveillance et Maintenance</a>
-<ul>
-<li><a href="#installation-des-outils-de-surveillance">Installation des outils de surveillance</a>
-<ul>
-<li><a href="#installation-de-cadvisor">Installation de cAdvisor</a></li>
-<li><a href="#installation-de-netdata">Installation de Netdata</a></li>
-</ul>
-</li>
-<li><a href="#configuration-des-alertes">Configuration des alertes</a></li>
-<li><a href="#automatisation-des-t%C3%A2ches-de-maintenance">Automatisation des tâches de maintenance</a></li>
-</ul>
-</li>
-<li><a href="#8-d%C3%A9pannage">Dépannage</a>
-<ul>
-<li><a href="#probl%C3%A8mes-courants-et-solutions">Problèmes courants et solutions</a></li>
-</ul>
-</li>
-<li><a href="#9-conclusion">Conclusion</a></li>
-<li><a href="#10-annexes">Annexes</a></li>
-</ol>
-<h1 id="1-introduction">1. Introduction<a hidden class="anchor" aria-hidden="true" href="#1-introduction">#</a></h1>
+  <div class="post-content"><h1 id="1-introduction">1. Introduction<a hidden class="anchor" aria-hidden="true" href="#1-introduction">#</a></h1>
 <p>Afin de consigner toutes les étapes nécessaires et les informations importantes pour l&rsquo;installation d&rsquo;un serveur Docker sous Ubuntu 24.04, j&rsquo;ai décidé de rédiger cet article. Ce guide me servira de référence personnelle, facilitant ainsi la gestion future et la maitenance de mon système et de mes environnements Docker. En documentant le plus possible chaque étape, de l&rsquo;installation initiale à la configuration avancée, je maximise les chances de ne rien oublier et de disposer d&rsquo;une ressource la plus fiable et complète possible. Si vous suivez ce guide, j&rsquo;espère qu&rsquo;il vous sera également utile et qu&rsquo;il vous permettra de naviguer facilement dans le processus d&rsquo;installation de Docker sur votre système Ubuntu.</p>
 <h1 id="2-pré-requis">2. Pré-requis<a hidden class="anchor" aria-hidden="true" href="#2-pré-requis">#</a></h1>
 <p>Avant de commencer, assurez-vous d&rsquo;avoir :</p>
